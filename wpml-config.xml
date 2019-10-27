@@ -1,0 +1,78 @@
+<wpml-config>
+    <admin-texts>
+		
+		<key name="theme_mods_quantum-theme">
+			<key name="presentationText" />
+			<key name="presentationText2" />
+		</key>
+	
+        <key name="quantum_options">
+			<key name="opt-testimonials-slides">
+                <key name="0">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="1">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="2">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="3">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+            </key>
+			<key name="opt-client-slides">
+                <key name="0">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="1">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="2">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="3">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+            </key>
+			<key name="opt-panel-slides">
+                <key name="0">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="1">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="2">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="3">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+            </key>
+        </key>
+    </admin-texts>
+</wpml-config>

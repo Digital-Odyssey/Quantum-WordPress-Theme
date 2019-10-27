@@ -1,0 +1,669 @@
+.pm-comment-header h3 {
+	font-size:28px !important;	
+}
+
+.login-username label, .login-password label {
+	display:none;
+	visibility:hidden;	
+}
+
+.pm-comment-reply-form {
+	clear:both;
+}
+
+/* Contact form */
+.pm-contact-form-container {
+	width:auto;
+	height:auto;
+	overflow:hidden;	
+}
+
+.pm-contact-form-title {
+	font-size:28px;	
+}
+
+.pm-required {
+	font-family:'Open Sans';
+	font-size:14px;
+	color:red;		
+}
+
+.pm-form-textfield {
+	border:1px solid #e1e1e1 !important;
+	padding:10px 13px;
+	width:50%;
+	margin-top:10px;
+	font-family:'Open Sans';
+	float:left;
+	clear:left;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #FFFFFF),
+		color-stop(0, #F7F7F7),
+		color-stop(1, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	
+	transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+
+#user_login, #user_pass, .woocommerce-cart input[type="text"], .woocommerce-cart input[type="email"], .woocommerce-cart input[type="password"], .registration-form input[type="text"], .registration-form input[type="password"], .registration-form input[type="email"], .woocommerce-cart input[type="tel"], .woocommerce-checkout input[type="text"], .woocommerce-checkout input[type="email"], .woocommerce-checkout input[type="password"],.woocommerce-checkout input[type="tel"]  {
+	border:1px solid #e1e1e1 !important;
+	padding:10px 13px;
+	width:100%;
+	margin-top:10px;
+	font-family:'Open Sans';
+	float:left;
+	clear:left;
+	line-height:28px !important;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #FFFFFF),
+		color-stop(0, #F7F7F7),
+		color-stop(1, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	
+	transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+
+
+.pm-form-textfield:focus, .pm-form-textarea:focus,  #user_login:focus, #user_pass:focus, .registration-form input[type="text"]:focus, .registration-form input[type="password"]:focus, .registration-form input[type="email"]:focus  {
+	background-color:#2C5D85;
+	background-image:none;	
+	color:white;
+}
+
+.pm-form-textarea {
+	border:1px solid #e1e1e1;
+	padding:10px 13px;
+	width:100%;
+	margin-top:10px;
+	font-family:'Open Sans';
+	min-height:150px;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #FFFFFF),
+		color-stop(0, #F7F7F7),
+		color-stop(1, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	
+	transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+
+.pm-form-submit-btn {
+	border:0px solid grey;
+	background-color:#2B5C84;
+	padding:7px 15px;
+	font-family:'Open Sans';
+	color:white;
+	font-weight:100;
+	text-transform:uppercase;
+	margin-top:10px;
+	
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+}
+
+.pm-form-submit-btn:hover {
+	background-color:#333;	
+}
+
+.pm_captcha_box {
+	padding:0px;
+	overflow:hidden;	
+}
+
+.pm_s_security_code {
+	width:125px;
+	float:none;	
+}
+
+#pm-contact-form-response {
+    color: red !important;
+}
+/* Contact form end */
+
+/* Forgot password form */
+.pm-form-textfield-with-icon {
+	border:1px solid #e1e1e1 !important;
+	padding:11px 10px 10px 40px !important;
+	width:100%;
+	margin-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	position:relative;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #FFFFFF),
+		color-stop(0, #F7F7F7),
+		color-stop(1, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	
+	transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+
+.pm-input-container {
+  position:relative;
+}
+
+.pm-input-container-icon {
+	color:#bfbfbf;
+    display:inline-block;
+    width: auto;
+    height: auto;
+    min-width: 16px;
+    padding: 4px 5px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    text-align: center;
+    position:absolute;
+    left:10px;
+    top:17px;
+    bottom:3px;
+    z-index:3;
+}
+
+/* Forgot password form end */
+
+/* Global form elements */
+.login-remember {
+	clear:both;	
+}
+
+.pm-checkbox-input {
+	overflow:hidden;
+	margin-top:10px;
+}
+.pm-remember-checkbox {
+	float:left;
+	margin-right:8px !important;
+}
+
+.pm-checkbox-input p {
+	line-height:22px !important;	
+}
+
+.pm-textfield, input[id=author], input[id=email], input[id=url], input[id=username], input[id=password], input[id=account_password], .woocommerce-billing-fields input[type=text]  {
+	border:1px solid #e1e1e1;
+	padding:15px 13px;
+	width:100%;
+	margin-top:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#666;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #FFFFFF),
+		color-stop(0, #F7F7F7),
+		color-stop(1, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	
+	transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+
+.pm-textfield:focus, .pm-textarea:focus, input[id=author]:focus, input[id=email]:focus, input[id=url]:focus, input[id=username]:focus, input[id=password]:focus, input[id=account_password], .woocommerce-billing-fields input[type=text]:focus {
+	background-color:#2C5D85;
+	background-image:none;	
+	color:white;
+}
+
+.pm-textarea {
+	border:1px solid #e1e1e1;
+	padding:10px 13px;
+	width:100%;
+	margin-top:10px;
+	font-family:'Open Sans';
+	min-height:150px;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #FFFFFF),
+		color-stop(0, #F7F7F7),
+		color-stop(1, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	
+	transition:all 0.5s;
+	-moz-transition:all 0.5s;
+	-webkit-transition:all 0.5s;
+	-o-transition:all 0.5s;
+}
+
+select {
+	padding:15px 13px;
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	border:1px solid #e1e1e1;
+	margin-top:10px;
+	color:#666;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left top,
+		left bottom,
+		color-stop(0, #FFFFFF),
+		color-stop(0, #F7F7F7),
+		color-stop(1, #FFFFFF)
+	);
+	background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F7F7F7 0%, #FFFFFF 100%);
+}
+
+label {
+	font-family:'Open sans';
+	font-size:14px;
+	color:#656565;	
+	font-weight:300;
+	margin-top:20px;
+	margin-bottom:0px;
+}
+/* Global form elements end */
+
+/* Rounded Form button */
+
+.pm-rounded-submit-btn, #submit, .woocommerce input[type=submit], #wp-submit, #btn-register-user, .checkout-button {
+	background-color:white;
+	border:3px solid #d9d9d9;
+	min-width:100px;
+	display:inline-block;
+	padding:7px 20px;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-family:'Open sans';
+	font-size:14px;
+	font-weight:bold;
+	color:#9e9e9e;
+	margin:15px 0px;
+	text-align:center;
+	
+	border-radius:99px;
+	-moz-border-radius:99px;
+	-webkit-border-radius:99px;
+	-o-border-radius:99px;
+	
+	transition:all 0.4s;
+	-moz-transition:all 0.4s;
+	-webkit-transition:all 0.4s; 
+	-o-transition:all 0.4s;
+}
+
+
+.pm-rounded-submit-btn:hover, #submit:hover, input[type=submit]:hover, #wp-submit:hover, #btn-register-user:hover, .checkout-button:hover {
+	color:white;
+	border:3px solid #2B5D83;
+	background-color:#2B5D83;
+}
+
+/* Rounded Form button end */
+
+/* Shopping cart form */
+.pm-cart-items-container {
+    border: 1px solid #e0dede;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+	margin-top:20px;
+}
+
+.pm-cart-totals-container {
+    border: 1px solid #e0dede;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}
+
+.pm-cart-count {
+    border-bottom: 1px solid #e0dede;
+    margin-bottom: 30px;
+    padding: 15px 0 10px 20px;
+}
+
+.pm-cart-count-text {
+    color:#295D84;
+    font-family:'Open sans';
+    font-size: 22px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 300;
+	margin-bottom:0px;
+}
+
+.pm-cart-total {
+    border-bottom: 1px solid #e0dede;
+    padding: 15px 0 10px 20px;
+}
+
+.row.cart_item:last-child {
+	padding-bottom:0px;
+}
+
+.row.cart_item {
+    padding: 0 0 20px 30px;
+}
+
+.pm-cart-totals {
+	padding:0px;
+	margin:0px;
+	list-style:none;	
+	overflow:hidden;
+}
+
+.pm-cart-totals li:last-child {
+	border-bottom:0px solid #e0dede;	
+}
+
+.pm-cart-totals li {
+	overflow:hidden;
+	padding:20px 30px 10px 12px;	
+	border-bottom:1px solid #e0dede;
+}
+
+.pm-cart-totals li .label {
+	float:left;
+	display:block;	
+	color:#295D84;
+    font-family:'Open sans';
+    font-size: 14px;
+	text-transform:uppercase;
+}
+
+.pm-cart-totals li .price {
+	float:right;
+	display:block;	
+	font-family:'Open sans';
+    font-size: 14px;
+}
+/* Shopping cart form end */
+
+/* Checkout form */
+.pm-expandable-login-container {
+	width:auto;
+	height:auto;
+	overflow:hidden;	
+	border:1px solid #e0e0e0;
+	padding:20px;
+	margin-top:20px;
+	display:none;
+}
+.pm-form-checkbox-input {
+	display: inline-block;
+    margin-top: 20px !important;
+    width: 100%;
+}
+
+/* Checkout form end */
+
+/* Cart form */
+.pm-order-summary-container {
+    border: 1px solid #e0dede;
+    margin-bottom: 30px;
+	margin-top:20px;
+}
+
+.pm-order-summary {
+	padding:0px;
+	margin:0px;
+	list-style:none;	
+	overflow:hidden;
+}
+
+.pm-order-summary li:last-child {
+	border-bottom:0px solid #e0dede;	
+}
+
+.pm-order-summary li {
+	overflow:hidden;
+	padding:20px 30px 10px 12px;	
+	border-bottom:1px solid #e0dede;
+}
+
+.pm-order-summary li .title {
+	float:left;
+	display:block;	
+	color:#295D84;
+    font-family:'Open sans';
+    font-size: 14px;
+	text-transform:uppercase;
+	padding:0 10px;
+}
+
+.pm-order-summary li .label {
+	float:left;
+	display:block;	
+	color:#295D84;
+    font-family:'Open sans';
+    font-size: 14px;
+	text-transform:uppercase;
+	margin-bottom:0px !important;
+}
+
+.pm-order-summary li .price {
+	float:right;
+	display:block;	
+	font-family:'Open sans';
+    font-size: 14px;
+}
+/* Shopping cart form end */
+
+/* Payment options */
+.pm-payment-option-container {
+	background-color:#f2f2f2;
+	padding:20px;
+}
+
+/* Widget - Quick contact form */
+.pm_quickcontact_widget {
+	overflow:hidden;	
+}
+
+.pm_quick_contact_field.Dark {
+    background-color:#444 !important;
+    border: 0px solid #333333 !important;
+    border-radius: 0px !important;
+    color: white !important;
+    float: left !important;
+    font-size: 12px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    padding: 6px 8px !important;
+    vertical-align: middle !important;
+    /*width: 95% !important;*/
+	box-shadow:none !important;
+	margin-bottom:5px;
+	width:95%;
+	
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+}
+
+
+.pm_quick_contact_textarea.Dark {
+    border-radius: 0px !important;
+    color: white !important;
+    float: left !important;
+    font-size: 12px !important;
+    height: 70px !important;
+    line-height: 20px !important;
+    padding: 6px 8px !important;
+    vertical-align: middle !important;
+    /*width: 95% !important;*/
+	background-color: #444 !important;
+    border: 0px solid #333333 !important;
+	box-shadow:none !important;
+	margin-bottom:5px;
+	width:95%;
+	
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+}
+
+.pm_quick_contact_field.Light {
+    background-color: white !important;
+    border-radius: 0px !important;
+    color:grey;
+    float: left !important;
+    font-size: 12px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    padding: 6px 8px !important;
+    vertical-align: middle !important;
+    width: 95% !important;
+	box-shadow:none !important;
+	margin-bottom:5px;
+	
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+}
+
+.pm_quick_contact_textarea.Light {
+    border-radius: 0px !important;
+    color: grey;
+    float: left !important;
+    font-size: 12px !important;
+    height: 70px !important;
+    line-height: 20px !important;
+    padding: 6px 8px !important;
+    vertical-align: middle !important;
+    width: 95% !important;
+	background-color: white !important;
+	box-shadow:none !important;
+	margin-bottom:5px;
+	
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+}
+
+.pm_quick_contact_submit {
+    border: 0 solid white;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    padding:7px 15px 5px 15px;
+    text-transform: uppercase;
+    
+	background-color:#ACDB05;
+	float:left;
+	margin-right:20px;
+	
+	transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	
+}
+
+.pm_quick_contact_submit:hover {
+	background-color:#333 !important;
+	color:white !important;
+	border:0px solid white !important;
+}
+
+.pm_form_response.Dark {
+    color:#333;
+    float: left;
+    font-size: 12px;
+    margin-top: 7px;
+    width: auto;
+	clear:left;
+	margin-bottom:30px;
+}
+
+.pm_form_response.Light {
+    color:white;
+    float: left;
+	clear:left;
+    font-size: 12px;
+    margin-top: 7px;
+    width: auto;
+	margin-bottom:30px;
+}
+
+.invalid_field {
+	border:1px solid red !important;	
+}
+
+#pm_form_security_question {
+	width:50px;
+	text-align:center;
+	float:right;
+	padding:2px;
+}	
+
+.form-group.security-question {
+	width:120px;	
+}
+
+.form-group.security-question p {
+	line-height:50px;	
+}

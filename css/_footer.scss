@@ -1,0 +1,244 @@
+/* Fat Footer */
+.pm-fat-footer {
+	width:100%;
+	background-color:#273d4c;
+	padding:60px 0px;
+	background-repeat:no-repeat;
+}
+
+.pm-fat-footer p {
+	color:white;	
+}
+
+.pm-fat-footer h6 {
+	font-size:14px;
+	color:white;
+	font-family:'Open Sans';
+	font-weight:bold;
+	display:block;
+	overflow:hidden;
+	text-transform:uppercase;
+	background-color:#467192;
+	padding:0px 0px 0 10px;
+	line-height:30px;
+	margin:0px 0px 25px 0px;
+}
+
+.pm-fat-footer h6 p {
+	margin:0;
+}
+
+.pm-fat-footer h6 i {
+	display:block;
+	padding:8px;
+	float:right;
+	background-color:#dbc164;	
+	font-size:14px;
+	height:inherit;
+}
+
+.pm-widget-footer:last-child {
+	margin-bottom:0px !important;	
+}
+
+.pm-widget-footer p {
+	font-size:13px;
+	color:white;
+	line-height:21px;
+	font-family:'Open sans';
+	margin:10px 0 0 0;
+	padding:0px;	
+}
+
+/* Footer */
+footer {
+	padding:40px 0;	
+}
+
+.pm-footer-social-info-container, .pm-footer-subscribe-container p {
+	font-size:14px;
+	font-family:'Open sans';
+	font-weight:300;	
+}
+
+.pm-footer-social-info-container h6, .pm-footer-subscribe-container h6 {
+	font-family:'Open Sans';
+	text-transform:uppercase;
+	color:#dbc164;
+	font-size:24px;
+	font-weight:700;
+	margin:0 0 10px 0;
+}
+
+.pm-footer-subscribe-field {
+	border:0px solid grey;
+	background-color:#467192;
+	color:white;	
+	padding:12px;
+	width:360px !important;
+	font-family:'Open sans';
+	float:left;	
+	margin-right:1px;
+	background-image:none !important;
+	border:none !important;
+	padding:8px 15px !important;
+	margin-top:0px !important;
+	height:44px;
+}
+
+
+.pm-footer-subscribe-submit-btn, .pm-footer-subscribe-submit-btn button {
+	font-family: "FontAwesome" !important;
+	display:inline-block;
+	padding:5px;
+	background-color:#dbc164;
+	color:white !important;
+	float:left;	
+	border:0px solid white !important;
+	width:44px !important;
+	height:44px !important;
+	min-width:auto !important;
+	margin:0px !important;
+	border-radius:0px !important; 
+	
+	@include transition(all, 0.3s);
+}
+
+.pm-footer-subscribe-submit-btn:hover, .pm-footer-subscribe-submit-btn button:hover {
+	background-color:#333 !important;
+	cursor:pointer;	
+	border:0px solid grey !important;
+}
+
+
+.pm-footer-copyright {
+	width:100%;
+	background-color:#273d4c;
+	padding:20px 0;
+}
+
+.pm-footer-copyright p {
+    font-size: 11px !important;
+	font-weight: 300;
+	color:#CCCCCC;
+	margin:0px;
+	color:white;
+	text-transform:uppercase;
+}
+
+.pm-footer-copyright a {
+	color:#dbc164;	
+	font-size: 11px !important;
+}
+
+.pm-footer-social-icons li:before {
+    content: "" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.pm-footer-social-icons {
+	overflow:hidden;
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:0;	
+}
+
+.pm-footer-social-icons li {
+	float:left;	
+	margin-right:1px;
+	margin-bottom:1px;
+	list-style:none;
+}
+
+.pm-footer-social-icons li a {
+	text-decoration:none;	
+}
+
+.pm-footer-social-icons li a i {
+	display:block;
+	text-align:center;
+	padding:14px;
+	background-color:#467192;
+	color:white;
+	font-size:18px;
+	width:45px;
+	height:45px;
+	
+	@include transition(all, 0.3s);
+}
+
+
+
+
+.pm-footer-navigation {
+	overflow:hidden;
+	width:auto;
+	height:auto;
+	margin:0;
+	padding:0;	
+	float:right;
+}
+
+.pm-footer-navigation li:before {
+    content: "" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.pm-footer-navigation li {
+	float:left;	
+	list-style:none;
+}
+
+.pm-footer-navigation li:last-child a {
+	border-right:0px solid white;
+}
+
+.pm-footer-navigation li a {
+	font-size:11px;
+	font-family: 'Open Sans';
+	text-transform:uppercase;
+	text-decoration:none;
+	color:white;
+	padding-right:15px;
+	
+	@include transition(all, 0.3s);
+}
+
+.pm-footer-navigation li a:hover {
+	color:#dbc164;	
+}
+
+/* Footer end */
+
+/* Tag cloud */
+.pm-widget-footer .tagcloud a {
+	display: inherit;
+    float: left;
+    font-size: 14px !important;
+    margin: 0 5px 5px 0;
+    overflow: hidden;
+	color:white !important;
+	padding: 7px 14px !important;
+    width: inherit !important;
+	
+	border:3px solid #d9d9d9;
+	text-transform:uppercase;
+
+	
+	@include borderRadiusAll(99px);
+	@include transition(all, 0.3s);
+}
+
+.pm-widget-footer .tagcloud a:hover {
+	color:white;
+	border:3px solid #2B5D83;
+	background-color:#2B5D83;
+}
+
+/* Footer recent posts */
+.pm-recent-blog-post-details .pm-date-published {
+	margin-top:0px !important;
+}
