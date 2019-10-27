@@ -3,7 +3,7 @@
 
 Features include:
 
-Staff Members custom post type
+Staff Members custom post type \n
 Workshops custom post type
 Gallery custom post type
 Careers custom post type
